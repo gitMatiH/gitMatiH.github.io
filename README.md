@@ -16,6 +16,8 @@ https://www.youtube.com/watch?v=5818gtPtPLM <br>
 
 <h2>Varios</h2>
 <p>
+Build and deploy a portfolio website [Full Tutorial Course] <br>
+https://www.youtube.com/watch?v=_xkSvufmjEs<br>
 How to Create & Host a Portfolio in 10 minutes with Github pages! <br>
 https://www.youtube.com/watch?v=u-RLu_8kwA0 <br>
 you need a website RIGHT NOW!! (create a website for FREE) <br>
