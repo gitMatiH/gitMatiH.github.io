@@ -4,11 +4,15 @@ Web personal
 Para aprender web design:
 https://www.udemy.com/course/web-developer-course
 
-Tech With Tim | How to Build a Developer's Portfolio Website From Scratch
-https://www.youtube.com/watch?v=vGnzI3eHCsc
-
-techwithtim.net MY NEW WEBSITE!
-https://www.youtube.com/watch?v=5818gtPtPLM
+<h2>Tech With Tim</h2>
+<p>
+Tech With Tim | How to Build a Developer's Portfolio Website From Scratch <br>
+https://www.youtube.com/watch?v=vGnzI3eHCsc <br>
+Part 2 of Building a Portfolio Website from Scratch with Tech With Tim <br>
+https://www.youtube.com/watch?v=5oG_-CIrVSI <br>
+techwithtim.net MY NEW WEBSITE! <br>
+https://www.youtube.com/watch?v=5818gtPtPLM <br>
+<p>
 
 A beginner's guide to making a dark theme for a website:
 https://opensource.com/article/22/9/dark-theme-website
