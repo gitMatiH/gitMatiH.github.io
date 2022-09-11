@@ -33,3 +33,18 @@ https://www.youtube.com/watch?v=jl5yUEdekEM
 
 Make A ECommerce Site Using ONLY Python - No HTML Or JavaScript!
 https://www.youtube.com/watch?v=NNeT-PhaLZk
+
+Python Blog Tutorial | Tech With Tim
+https://github.com/techwithtim/Flask-Blog-Tutorial/tree/main
+Python Blog Tutorial #1 - Flask Setup and Introduction
+https://www.youtube.com/watch?v=GQcM8wdduLI
+Python Blog Tutorial #2 - Flask User Authentication and Security
+https://www.youtube.com/watch?v=W4GItcW7W-U
+Python Blog Tutorial #3 - Creating And Deleting Posts
+https://www.youtube.com/watch?v=f_bml-MILAs
+Python Blog Tutorial #4 - Adding And Deleting Comments
+https://www.youtube.com/watch?v=M_OKJnIdYeU
+Python Blog Tutorial #5 - Liking Posts
+https://www.youtube.com/watch?v=tMNJtYDSOBY
+
+
