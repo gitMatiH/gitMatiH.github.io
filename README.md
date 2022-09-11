@@ -16,6 +16,10 @@ https://www.youtube.com/watch?v=5818gtPtPLM <br>
 
 <h2>Varios</h2>
 <p>
+How to Create & Host a Portfolio in 10 minutes with Github pages! <br>
+https://www.youtube.com/watch?v=u-RLu_8kwA0 <br>
+you need a website RIGHT NOW!! (create a website for FREE) <br>
+https://www.youtube.com/watch?v=gwUz3E9AW0w <br>
 A beginner's guide to making a dark theme for a website: <br>
 https://opensource.com/article/22/9/dark-theme-website <br>
  <br>
