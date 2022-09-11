@@ -74,9 +74,12 @@ https://www.youtube.com/watch?v=KVFF-HTYbXM<br>
 
 <h2>Partes ideas</h2>
 <p>
-Skeuomorphism Toggle Switch <br>
+<h3>Skeuomorphism Toggle Switch</h3>
 https://github.com/bedimcode/skeuomorphism-toggle-switch <br>
 https://www.youtube.com/watch?v=tInn-DR6XTc <br>
+<h3>Responsive Clock Ui</h3>
+https://github.com/bedimcode/responsive-clock-ui <br>
+https://www.youtube.com/watch?v=H4-lcB3dr-Q <br>
 </p>
 
 <h2>Python Blog Tutorial | Tech With Tim</h2>
