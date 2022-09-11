@@ -14,6 +14,7 @@ techwithtim.net MY NEW WEBSITE! <br>
 https://www.youtube.com/watch?v=5818gtPtPLM <br>
 <p>
 
+<p>
 A beginner's guide to making a dark theme for a website:
 https://opensource.com/article/22/9/dark-theme-website
 
@@ -37,6 +38,7 @@ https://www.youtube.com/watch?v=jl5yUEdekEM
 
 Make A ECommerce Site Using ONLY Python - No HTML Or JavaScript!
 https://www.youtube.com/watch?v=NNeT-PhaLZk
+</p>
 
 <h2>Python Blog Tutorial | Tech With Tim</h2>
 <p>
