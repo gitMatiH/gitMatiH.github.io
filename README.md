@@ -14,30 +14,31 @@ techwithtim.net MY NEW WEBSITE! <br>
 https://www.youtube.com/watch?v=5818gtPtPLM <br>
 <p>
 
+<h2>Varios</h2>
 <p>
-A beginner's guide to making a dark theme for a website:
-https://opensource.com/article/22/9/dark-theme-website
-
-Easily Add Social Media Icon Links to Your Website with HTML & CSS
-https://www.youtube.com/watch?v=Hskt1jN7JTc
-
-How do I add social media links to my site?
-https://help.one.com/hc/en-us/articles/360002023697-How-do-I-add-social-media-links-to-my-site-
-
-Make A Python Website As Fast As Possible!
-https://www.youtube.com/watch?v=kng-mJJby8g
-
-Python Website Full Tutorial - Flask, Authentication, Databases & More
-https://www.youtube.com/watch?v=dam0GPOAvVI
-
-Django For Beginners - Full Tutorial
-https://www.youtube.com/watch?v=sm1mokevMWk
-
-Python Resume Projects - You Can Finish in a Weekend
-https://www.youtube.com/watch?v=jl5yUEdekEM
-
-Make A ECommerce Site Using ONLY Python - No HTML Or JavaScript!
-https://www.youtube.com/watch?v=NNeT-PhaLZk
+A beginner's guide to making a dark theme for a website: <br>
+https://opensource.com/article/22/9/dark-theme-website <br>
+ <br>
+Easily Add Social Media Icon Links to Your Website with HTML & CSS <br>
+https://www.youtube.com/watch?v=Hskt1jN7JTc <br>
+ <br>
+How do I add social media links to my site? <br>
+https://help.one.com/hc/en-us/articles/360002023697-How-do-I-add-social-media-links-to-my-site- <br>
+ <br>
+Make A Python Website As Fast As Possible! <br>
+https://www.youtube.com/watch?v=kng-mJJby8g <br>
+ <br>
+Python Website Full Tutorial - Flask, Authentication, Databases & More <br>
+https://www.youtube.com/watch?v=dam0GPOAvVI <br>
+ <br>
+Django For Beginners - Full Tutorial <br>
+https://www.youtube.com/watch?v=sm1mokevMWk <br>
+ <br>
+Python Resume Projects - You Can Finish in a Weekend <br>
+https://www.youtube.com/watch?v=jl5yUEdekEM <br>
+ <br>
+Make A ECommerce Site Using ONLY Python - No HTML Or JavaScript! <br>
+https://www.youtube.com/watch?v=NNeT-PhaLZk <br>
 </p>
 
 <h2>Python Blog Tutorial | Tech With Tim</h2>
