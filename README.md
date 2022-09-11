@@ -40,6 +40,20 @@ https://www.youtube.com/watch?v=jl5yUEdekEM <br>
 Make A ECommerce Site Using ONLY Python - No HTML Or JavaScript! <br>
 https://www.youtube.com/watch?v=NNeT-PhaLZk <br>
 </p>
+<p>
+How to Host a Python Socket Server Online (For Free)<br>
+https://www.youtube.com/watch?v=KQasIwElg3w<br>
+How to Host a MySQL Server on Linux<br>
+https://www.youtube.com/watch?v=WltqUaqxBH8<br>
+How To Deploy A React App - Using NGINX & Linux<br>
+https://www.youtube.com/watch?v=KFwFDZpEzXY<br>
+How to Host a Discord Bot on Heroku for Free - Discord.py Rewrite Tutorial #5<br>
+https://www.youtube.com/watch?v=BPvg9bndP1U<br>
+How to Deploy a Flask App to a Linux Server<br>
+https://www.youtube.com/watch?v=YFBRVJPhDGY<br>
+Linux for Programmers #14 - Deploying a Simple Python Web Server<br>
+https://www.youtube.com/watch?v=KVFF-HTYbXM<br>
+</p>
 
 <h2>Python Blog Tutorial | Tech With Tim</h2>
 <p>
