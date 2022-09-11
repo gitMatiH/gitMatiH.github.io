@@ -30,6 +30,9 @@ Responsive Personal Portfolio Website Using HTML CSS And JavaScript | Dark/Light
 https://github.com/bedimcode/responsive-portfolio-website-Alexa<br>
 https://github.com/bedimcode/responsive-portfolio-complete<br>
 https://www.youtube.com/watch?v=27JtRAI3QO8<br>
+Responsive Sidebar Menu With Tab Bar Using HTML CSS & JavaScript<br>
+https://www.youtube.com/watch?v=o7YdBUb1jsM<br>
+https://github.com/bedimcode/responsive-sidebar-with-tabbar<br>
 Developer Portfolio Do's and Don'ts<br>
 https://www.youtube.com/watch?v=nlSgxeT2_dc<br>
  <br>
