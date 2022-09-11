@@ -72,6 +72,13 @@ Linux for Programmers #14 - Deploying a Simple Python Web Server<br>
 https://www.youtube.com/watch?v=KVFF-HTYbXM<br>
 </p>
 
+<h2>Partes ideas</h2>
+<p>
+Skeuomorphism Toggle Switch <br>
+https://github.com/bedimcode/skeuomorphism-toggle-switch <br>
+https://www.youtube.com/watch?v=tInn-DR6XTc <br>
+</p>
+
 <h2>Python Blog Tutorial | Tech With Tim</h2>
 <p>
 https://github.com/techwithtim/Flask-Blog-Tutorial/tree/main <br>
