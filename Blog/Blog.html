@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>La Web de Mati</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,26 +25,31 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <div class="w3-top">
   <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Acerca de</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Blog</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Artículos</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Apps</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contacto</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Links</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="Acerca_de/Acerca_de.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Acerca de</a>
+    <a href="Blog/Blog.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Blog</a>
+    <a href="Articulos/Articulos.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Artículos</a>
+    <a href="Apps/Apps.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Apps</a>
+    <a href="Recursos/Recursos.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Recursos</a>
+    <a href="Videos/Videos.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Videos</a>
+    <a href="Contacto/Contacto.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Contacto</a>
   </div>
 </div>
 
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+
+<!-- Sidebar  funciona sacando w3-collapse, habria ver que hace eso-->
+<nav class="w3-sidebar w3-bar-block w3-large w3-theme-l5 w3-animate-left" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
     <i class="fa fa-remove"></i>
   </a>
-  <h4 class="w3-bar-item"><b>Menu variable según bar item</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Referencia temática</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Referencia temática2</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Reftem3</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Reftem4</a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Acerca de</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Blog</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Artículos</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Apps</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Recursos</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Videos</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Contacto</a>
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -55,20 +60,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Página web de Mati</h1>
-      <p>Esta es una página web personal. Va a tener un blog y apss en forma de microservicios. Articulos javascript, python, java, C, C++, ASM, electronica, algoritmos, matematica y cosas q me interesan.</p>
+      <h1 class="w3-text-teal">¿Cómo se demuestran los Algoritmos? Version blog</h1>
+      <p>Version castellano<br>
+      English Version<br>
+      Deutsche Übersetzung</p>
       <p>
-      	Ideas <br>
-      	"probar" algoritmos <br>
-      	qué es GIT y cómo usarlo <br>
-      	cómo hice la calculadora de conversion de bases (primero con implements py para ver arquitectura y luego con implementaciones propias -> serie de blogpost (2/8 etc)<br>
-      	cómo hacer un gif<br>
-      	qué es un jpg<br>
-      	articulos opencv<br>
-      	cómo programar audio<br>
-      	que es una .wav<br>
-      	cosas sobre el SO<br>
-      	ideas<br>
+        Resumen
+        <p>
+        Link Articulo, Link Video
+        </p>
       </p>
     </div>
     <div class="w3-third w3-container">
@@ -77,30 +77,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     </div>
   </div>
 
-  <div class="w3-row">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">¿Cómo se demuestran los Algoritmos?</h1>
-      <p>Version castellano<br>
-      English Version<br>
-  	  Deutsche Übersetzung</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
-  </div>
-
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
-  </div>
 
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
@@ -136,13 +112,10 @@ var overlayBg = document.getElementById("myOverlay");
 
 // Toggle between showing and hiding the sidebar, and add overlay effect
 function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-    overlayBg.style.display = "none";
-  } else {
-    mySidebar.style.display = 'block';
+
+    mySidebar.style.display = "block";
     overlayBg.style.display = "block";
-  }
+
 }
 
 // Close the sidebar with the close button
