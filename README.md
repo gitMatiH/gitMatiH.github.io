@@ -4,8 +4,10 @@ Web personal
 Para aprender web design:
 https://www.udemy.com/course/web-developer-course
 
+https://d3js.org/ <br>
 https://prismjs.com/ <br>
 https://www.mathjax.org/ <br>
+https://css-tricks.com/guides/ <br>
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <br>
 
 <h2>Tech With Tim</h2>
