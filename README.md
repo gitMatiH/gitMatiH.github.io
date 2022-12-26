@@ -7,6 +7,7 @@ https://www.udemy.com/course/web-developer-course
 https://d3js.org/ <br>
 https://prismjs.com/ <br>
 https://www.mathjax.org/ <br>
+https://html.com/ <br>
 https://css-tricks.com/guides/ <br>
 https://css-tricks.com/lodge/learn-jquery/ <br>
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <br>
