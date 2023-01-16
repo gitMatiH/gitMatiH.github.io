@@ -1,0 +1,14 @@
+#tdc_contenedor {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 3px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.tdc_titulo {
+    font-weight: 700;
+    text-align: center;
+}

@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="../CSS/w3.css" rel="stylesheet" />
+<link href="../CSS/tdc.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -44,7 +45,8 @@ body {overflow-wrap: break-word;}
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open1()"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open2()"><i class="fa fa-list-alt"></i></a>
     <a href="../index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
     <a href="../Acerca_de.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Acerca de</a>
     <a href="../Blog.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Blog</a>
@@ -60,7 +62,7 @@ body {overflow-wrap: break-word;}
 
 <!-- Sidebar  funciona sacando w3-collapse, habria ver que hace eso-->
 <nav class="w3-sidebar w3-bar-block w3-large w3-theme-l5 w3-animate-left" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+  <a href="javascript:void(0)" onclick="w3_close1()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
     <i class="fa fa-remove"></i>
   </a>
   <h4 class="w3-bar-item"><b>Menu</b></h4>
@@ -74,6 +76,35 @@ body {overflow-wrap: break-word;}
   <a class="w3-bar-item w3-button w3-hover-black" href="../Contacto.html">Contacto</a>
 </nav>
 
+<!-- Sidebar2  -->
+<nav class="w3-sidebar w3-bar-block w3-large w3-theme-l5 w3-animate-left" style="display:none" id="myIndex">
+  <a href="javascript:void(0)" onclick="w3_close2()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="CerrarIndice">
+    <i class="fa fa-remove"></i>
+  </a>
+<h4 class="w3-bar-item"><b>Indice</b></h4>
+    <div id="tdc_contenedor">
+    <p class="tdc_titulo">Indice</p>
+    <ol class="tdc_lista">
+      <li><a href="#intro">Primer Header</a>
+        <ol type="i">
+          <li><a href="#First_Sub_Point_1">Subheader</a></li>
+          <li><a href="#First_Sub_Point_2">Subheader</a></li>
+        </ol>
+      </li>
+      <li><a href="#segunda">Segundo Header</a></li>
+        <ol type="i">
+          <li><a href="#First_Sub_Point_1">Subheader</a></li>
+            <ol type="a">
+              <li><a href="#First_Sub_Point_1">Subheader</a></li>
+              <li><a href="#First_Sub_Point_2">Subheader</a></li>
+            </ol>
+          <li><a href="#First_Sub_Point_2">Subheader</a></li>
+        </ol>
+      <li><a href="#Third_Point_Header">Tercer Header</a></li>
+    </ol>
+    </div>
+</nav>
+
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
@@ -84,9 +115,68 @@ body {overflow-wrap: break-word;}
    	<div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Flip Flops</h1>
       <p>Articulo sobre que son, simuladores, falstad embebido</p>
+      <h2 id = "intro" class="w3-text-teal">Flip Flops | Primera parte intro</h2>
+      <p>
+        Los flip flops, también conocidos como chanclas o sandalias, son un tipo de calzado abierto que se compone de una suela y dos tiras que se colocan entre los dedos del pie. Son un calzado muy popular para el verano, ya que son frescos y cómodos de llevar.
+      </p>
+      <p>
+        Existen muchos diseños diferentes de flip flops, desde los tradicionales de goma hasta los más elaborados con adornos y estampados. También hay flip flops hechos con materiales más duraderos, como cuero o tela, para usar en ocasiones más formales.
+      </p>
+      <h2 id = "segunda" class="w3-text-teal">Flip Flops | Segunda parte tipos</h2>
+      <p>
+        En la cultura popular, los flip flops son vistos como un calzado relajado y informal, ideales para el verano, la playa y paseos por la ciudad. Sin embargo, cada vez son más comunes verlos en ocasiones más formales, como bodas y eventos de negocios.
+      </p>
+      <p>
+        Los flip flops también son una opción popular para actividades al aire libre como el senderismo o el senderismo, ya que proporcionan una gran comodidad y libertad para los pies. Además, son fáciles de llevar y pueden ser empaquetados en una mochila o bolso, lo que los hace ideales para viajes y vacaciones.
+      </p>
+      <p>
+        En resumen, los flip flops son un calzado versátil y cómodo, perfecto para el verano y actividades al aire libre. Con una variedad de diseños y materiales disponibles, hay un par de flip flops para cada ocasión y estilo personal.
+      </p>
+<p>
+Los flip flops, también conocidos como chanclas o sandalias, son un tipo de calzado abierto que se compone de una suela y dos tiras que se colocan entre los dedos del pie. Son un calzado muy popular para el verano, ya que son frescos y cómodos de llevar.
+
+Existen muchos diseños diferentes de flip flops, desde los tradicionales de goma hasta los más elaborados con adornos y estampados. También hay flip flops hechos con materiales más duraderos, como cuero o tela, para usar en ocasiones más formales.
+
+En la cultura popular, los flip flops son vistos como un calzado relajado y informal, ideales para el verano, la playa y paseos por la ciudad. Sin embargo, cada vez son más comunes verlos en ocasiones más formales, como bodas y eventos de negocios.
+
+Los flip flops también son una opción popular para actividades al aire libre como el senderismo o el senderismo, ya que proporcionan una gran comodidad y libertad para los pies. Además, son fáciles de llevar y pueden ser empaquetados en una mochila o bolso, lo que los hace ideales para viajes y vacaciones.
+
+En resumen, los flip flops son un calzado versátil y cómodo, perfecto para el verano y actividades al aire libre. Con una variedad de diseños y materiales disponibles, hay un par de flip flops para cada ocasión y estilo personal.
+</p>
+<p>
+Los flip flops, también conocidos como chanclas o sandalias, son un tipo de calzado abierto que se compone de una suela y dos tiras que se colocan entre los dedos del pie. Son un calzado muy popular para el verano, ya que son frescos y cómodos de llevar.
+
+Existen muchos diseños diferentes de flip flops, desde los tradicionales de goma hasta los más elaborados con adornos y estampados. También hay flip flops hechos con materiales más duraderos, como cuero o tela, para usar en ocasiones más formales.
+
+En la cultura popular, los flip flops son vistos como un calzado relajado y informal, ideales para el verano, la playa y paseos por la ciudad. Sin embargo, cada vez son más comunes verlos en ocasiones más formales, como bodas y eventos de negocios.
+
+Los flip flops también son una opción popular para actividades al aire libre como el senderismo o el senderismo, ya que proporcionan una gran comodidad y libertad para los pies. Además, son fáciles de llevar y pueden ser empaquetados en una mochila o bolso, lo que los hace ideales para viajes y vacaciones.
+
+En resumen, los flip flops son un calzado versátil y cómodo, perfecto para el verano y actividades al aire libre. Con una variedad de diseños y materiales disponibles, hay un par de flip flops para cada ocasión y estilo personal.
+</p>
     </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">Tabla de contenidos</p>
+    <div class="w3-third w3-container w3-hide-small w3-hide-medium">
+            <div id="tdc_contenedor">
+            <p class="tdc_titulo">Indice</p>
+            <ol class="tdc_lista">
+              <li><a href="#intro">Primer Header</a>
+                <ol type="i">
+                  <li><a href="#First_Sub_Point_1">Subheader</a></li>
+                  <li><a href="#First_Sub_Point_2">Subheader</a></li>
+                </ol>
+              </li>
+              <li><a href="#segunda">Segundo Header</a></li>
+                <ol type="i">
+                  <li><a href="#First_Sub_Point_1">Subheader</a></li>
+                    <ol type="a">
+                      <li><a href="#First_Sub_Point_1">Subheader</a></li>
+                      <li><a href="#First_Sub_Point_2">Subheader</a></li>
+                    </ol>
+                  <li><a href="#First_Sub_Point_2">Subheader</a></li>
+                </ol>
+              <li><a href="#Third_Point_Header">Tercer Header</a></li>
+            </ol>
+            </div>
       <p class="w3-border w3-padding-large w3-padding-64 w3-center">calendario posts</p>
     </div>
   </div>
@@ -113,7 +203,7 @@ var mySidebar = document.getElementById("mySidebar");
 var overlayBg = document.getElementById("myOverlay");
 
 // Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
+function w3_open1() {
 
     mySidebar.style.display = "block";
     overlayBg.style.display = "block";
@@ -121,8 +211,28 @@ function w3_open() {
 }
 
 // Close the sidebar with the close button
-function w3_close() {
+function w3_close1() {
   mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+
+// Get the Index
+var myIndex = document.getElementById("myIndex");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the index, and add overlay effect
+function w3_open2() {
+
+    myIndex.style.display = "block";
+    overlayBg.style.display = "block";
+
+}
+
+// Close the sidebar with the close button
+function w3_close2() {
+  myIndex.style.display = "none";
   overlayBg.style.display = "none";
 }
 </script>
