@@ -83,6 +83,10 @@ https://www.youtube.com/watch?v=KVFF-HTYbXM<br>
 
 <h2>Partes ideas</h2>
 <p>
+<h3>Responsive NAVIGATION MENU BAR Using HTML CSS JAVASCRIPT | Mobile First</h3>
+https://www.youtube.com/watch?v=1sBYOt3d1DA<br>
+<h3>Sidebar Menu Using HTML CSS & JAVASCRIPT</h3>
+https://www.youtube.com/watch?v=tXcZsGMTH1U<br>
 <h3>Skeuomorphism Toggle Switch</h3>
 https://github.com/bedimcode/skeuomorphism-toggle-switch <br>
 https://www.youtube.com/watch?v=tInn-DR6XTc <br>
