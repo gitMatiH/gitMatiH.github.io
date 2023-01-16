@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>La Web de Mati</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../CSS/w3.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+body, html {height: 100%;}
+/*body {overflow-X: hidden;}*/
+body {overflow-wrap: break-word;}
+#wrapper {min-height: calc(100% - 166.78px);}
+</style>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+<link href="../CSS/prism.css" rel="stylesheet" />
+<!--
+<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="/path/to/styles/default.min.css">
+<script src="/path/to/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+-->
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <a href="../Acerca_de.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Acerca de</a>
+    <a href="../Blog.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Blog</a>
+    <a href="../Articulos.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Artículos</a>
+    <a href="../Videos.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Videos</a>
+    <a href="../Apps.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Apps</a>
+    <a href="../Recursos.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Recursos</a>
+    <a href="../Servicios.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Servicios</a>
+    <a href="../Contacto.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Contacto</a>
+  </div>
+</div>
+
+
+<!-- Sidebar  funciona sacando w3-collapse, habria ver que hace eso-->
+<nav class="w3-sidebar w3-bar-block w3-large w3-theme-l5 w3-animate-left" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="../Acerca_de.html">Acerca de</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="../Blog.html">Blog</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="../Articulos.html">Artículos</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="../Videos.html">Videos</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="../Apps.html">Apps</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="../Recursos.html">Recursos</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="../Servicios.html">Servicios</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="../Contacto.html">Contacto</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div id="wrapper" class="w3-main" >
+
+  <div class="w3-row w3-padding-64">
+   	<div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Flip Flops</h1>
+      <p>Articulo sobre que son, simuladores, falstad embebido</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">Tabla de contenidos</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">calendario posts</p>
+    </div>
+  </div>
+<!-- END MAIN -->
+</div>
+
+<!-- FOOTER -->
+<footer id="myFooter">
+  <div class="w3-container w3-theme-l2 w3-padding-32">
+    <h4>Footer</h4>
+  </div>
+
+  <div class="w3-container w3-theme-l1">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </div>
+</footer>
+<!-- END FOOTER -->
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+
+    mySidebar.style.display = "block";
+    overlayBg.style.display = "block";
+
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+<script src="./JS/prism.js"></script>
+</body>
+</html>
+
+
