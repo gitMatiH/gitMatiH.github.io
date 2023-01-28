@@ -8,6 +8,12 @@
     width: auto;
 }
 
+.tdc {
+display: table;
+margin: auto;
+overflow-wrap: anywhere;
+}
+
 .tdc_titulo {
     font-weight: 700;
     text-align: center;
