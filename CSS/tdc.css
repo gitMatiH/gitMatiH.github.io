@@ -8,3 +8,7 @@ overflow-wrap: anywhere;
     font-weight: 700;
     text-align: center;
 }
+
+ol {
+    padding-inline-start: 25px;
+}
