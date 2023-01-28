@@ -161,13 +161,13 @@ En resumen, los flip flops son un calzado versátil y cómodo, perfecto para el 
             <div class="w3-container w3-border">
             <p class="tdc_titulo">Indice</p>
             <ol class="tdc">
-              <li><a href="#intro">Primer Header</a>
+              <li><a href="#intro" class="offset-anchor">Primer Header</a>
                 <ol type="i">
                   <li><a href="#First_Sub_Point_1">Subheader</a></li>
                   <li><a href="#First_Sub_Point_2">Subheader</a></li>
                 </ol>
               </li>
-              <li><a href="#segunda">Segundo Header</a></li>
+              <li><a href="#segunda" class="offset-anchor">Segundo Header</a></li>
                 <ol type="i">
                   <li><a href="#First_Sub_Point_1">Subheader</a></li>
                     <ol type="a">
@@ -237,6 +237,27 @@ function w3_close2() {
   myIndex.style.display = "none";
   overlayBg.style.display = "none";
 }
+
+
+// Modificacion al anchor
+
+var anchors = document.getElementsByClassName("offset-anchor");
+
+
+for (let i = 0; i < anchors.length; i++) {
+  anchors[i].addEventListener('click', function(event) {
+    event.preventDefault();
+    var targetId = this.getAttribute('href');
+    var target = document.querySelector(targetId);
+    var offsetPosition = target.offsetTop - 43;
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  });
+}
+
+
 </script>
 <script src="./JS/prism.js"></script>
 </body>
