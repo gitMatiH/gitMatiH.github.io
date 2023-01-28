@@ -9,6 +9,11 @@ overflow-wrap: anywhere;
     text-align: center;
 }
 
+.fijo {
+position: sticky;
+top: 64px;
+}
+
 ol {
     padding-inline-start: 25px;
 }
