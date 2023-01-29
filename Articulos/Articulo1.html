@@ -84,25 +84,36 @@ body {overflow-wrap: break-word;}
   <a href="javascript:void(0)" onclick="w3_close2()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="CerrarIndice">
     <i class="fa fa-remove"></i>
   </a>
-<h4 class="w3-bar-item"><b>Indice</b></h4>
+  <a href="#primerNivel1" class="offset-anchor">
+    <h4 class="w3-bar-item"><b>Flip Flops</b></h4>
+  </a>
     <div class="w3-container">
             <ol class="tdc">
-              <li><a href="#intro" class="offset-anchor">Primer Header</a>
+              <li><a href="#segundoNivel1" class="offset-anchor">Características Básicas</a>
+                <!--
                 <ol type="i">
                   <li><a href="#First_Sub_Point_1">Subheader</a></li>
                   <li><a href="#First_Sub_Point_2">Subheader</a></li>
                 </ol>
+                -->
               </li>
-              <li><a href="#segunda" class="offset-anchor">Segundo Header</a></li>
+              <li><a href="#segundoNivel2" class="offset-anchor">Ecuaciones de Estados</a></li>
                 <ol type="i">
-                  <li><a href="#First_Sub_Point_1">Subheader</a></li>
+                  <li><a href="#tercerNivel1" class="offset-anchor">S-R</a></li>
+                    <!--
                     <ol type="a">
+
+                      
                       <li><a href="#First_Sub_Point_1">Subheader</a></li>
                       <li><a href="#First_Sub_Point_2">Subheader</a></li>
+                      
                     </ol>
-                  <li><a href="#First_Sub_Point_2">Subheader</a></li>
+                  -->
+                  <li><a href="#tercerNivel2" class="offset-anchor">D</a></li>
+                  <li><a href="#tercerNivel3" class="offset-anchor">J-K</a></li>
+                  <li><a href="#tercerNivel4" class="offset-anchor">T</a></li>
                 </ol>
-              <li><a href="#Third_Point_Header">Tercer Header</a></li>
+              <li><a href="#segundoNivel3" class="offset-anchor">Chanclas</a></li>
             </ol>
     </div>
 </nav>
@@ -115,68 +126,100 @@ body {overflow-wrap: break-word;}
 
   <div class="w3-row w3-padding-64">
    	<div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Flip Flops</h1>
-      <p>Articulo sobre que son, simuladores, falstad embebido</p>
-      <h2 id = "intro" class="w3-text-teal">Flip Flops | Primera parte intro</h2>
+      <h1 id = "primerNivel1" class="w3-text-teal">Flip Flops | Introducción</h1>
+      <p>Este artículo va a explorar qué son los flip flops, cómo y para qué se usan, simulaciones y diagramas de t. y va a tener cosas del simulador falstad embebido</p>
+      <h2 id = "segundoNivel1" class="w3-text-teal">Flip Flops | Características Básicas</h2>
       <p>
-        Los flip flops, también conocidos como chanclas o sandalias, son un tipo de calzado abierto que se compone de una suela y dos tiras que se colocan entre los dedos del pie. Son un calzado muy popular para el verano, ya que son frescos y cómodos de llevar.
+        Los flip flops (FF) son circuitos electrónicos biestables. Pertenecen al tipo de circuitos secuenciales, lo cual significa que dependen del tiempo y/o estados anteriores.<br>
+        Los hay de cuatro tipos:
+        <ul>
+          <li>Set Reset (S-R)</li>
+          <li>Data (D)</li>
+          <li>Jack Kilby (J-K)</li>
+          <li>Toggle (T)</li>
+        </ul>
+        Los FF's en principio están basados en latches, de tipo Set-Reset y Data. El uso más básico de un latch es almacenar un estado al darse cierta condición, y los FF's se prestan para manejar bits de datos binarios.<br>
+        Los FF's suelen estar sincronizados mediante una señal de reloj (Clock) y se pueden interconectar para formar secuenciadores de patrones, entre sus múltiples aplicaciones usuales.
       </p>
       <p>
-        Existen muchos diseños diferentes de flip flops, desde los tradicionales de goma hasta los más elaborados con adornos y estampados. También hay flip flops hechos con materiales más duraderos, como cuero o tela, para usar en ocasiones más formales.
+        Un hecho interesante es que con ayuda de un poco de lógica adicional cualquier FF puede hacerse comportar como cualquier otro.
       </p>
-      <h2 id = "segunda" class="w3-text-teal">Flip Flops | Segunda parte tipos</h2>
+      <h2 id = "segundoNivel2" class="w3-text-teal">Flip Flops | Ecuaciones de Estados</h2>
       <p>
-        En la cultura popular, los flip flops son vistos como un calzado relajado y informal, ideales para el verano, la playa y paseos por la ciudad. Sin embargo, cada vez son más comunes verlos en ocasiones más formales, como bodas y eventos de negocios.
+        Una manera sucinta de describir el comportamiento de un FF es mediante su Ecuacion de estado. Esta suele ser de tipo recurrente, ya que al ser un dispositivo que tiene "memoria" el estado siguiente va a estar determinado por el estado actual. Diferentes FF's tienen diferentes entradas las cuales se interpretan o utilizan de manera distinta segun la aplicación. Por esto los FF's no tienen una entrada uniforme, y su comportamiento va a ser mas adecuado dependiendo de cuál es la aplicación que se le va a dar.<br>
       </p>
       <p>
-        Los flip flops también son una opción popular para actividades al aire libre como el senderismo o el senderismo, ya que proporcionan una gran comodidad y libertad para los pies. Además, son fáciles de llevar y pueden ser empaquetados en una mochila o bolso, lo que los hace ideales para viajes y vacaciones.
+        <h3 id = "tercerNivel1" class="w3-text-teal">FF-SR</h3>
+        >tabla FF-SR< >Ec Estado FF_SR<
+      </p>
+      <p>
+        <h3 id = "tercerNivel2" class="w3-text-teal">FF-D</h3>
+        >tabla FF-D< >Ec Estado FF_D<
+      </p>
+      <p>
+        <h3 id = "tercerNivel3" class="w3-text-teal">FF-JK</h3>
+        >tabla FF-JK< >Ec Estado FF_JK<
+      </p>
+      <p>
+        <h3 id = "tercerNivel4" class="w3-text-teal">FF-T</h3>
+        >tabla FF-T< >Ec Estado FF_T<
       </p>
       <p>
         En resumen, los flip flops son un calzado versátil y cómodo, perfecto para el verano y actividades al aire libre. Con una variedad de diseños y materiales disponibles, hay un par de flip flops para cada ocasión y estilo personal.
       </p>
-<p>
-Los flip flops, también conocidos como chanclas o sandalias, son un tipo de calzado abierto que se compone de una suela y dos tiras que se colocan entre los dedos del pie. Son un calzado muy popular para el verano, ya que son frescos y cómodos de llevar.
+      <h2 id = "segundoNivel3" class="w3-text-teal">Flip Flops | Chanclas</h2>
+        <p>
+        Los flip flops, también conocidos como chanclas o sandalias, son un tipo de calzado abierto que se compone de una suela y dos tiras que se colocan entre los dedos del pie. Son un calzado muy popular para el verano, ya que son frescos y cómodos de llevar.
 
-Existen muchos diseños diferentes de flip flops, desde los tradicionales de goma hasta los más elaborados con adornos y estampados. También hay flip flops hechos con materiales más duraderos, como cuero o tela, para usar en ocasiones más formales.
+        Existen muchos diseños diferentes de flip flops, desde los tradicionales de goma hasta los más elaborados con adornos y estampados. También hay flip flops hechos con materiales más duraderos, como cuero o tela, para usar en ocasiones más formales.
 
-En la cultura popular, los flip flops son vistos como un calzado relajado y informal, ideales para el verano, la playa y paseos por la ciudad. Sin embargo, cada vez son más comunes verlos en ocasiones más formales, como bodas y eventos de negocios.
+        En la cultura popular, los flip flops son vistos como un calzado relajado y informal, ideales para el verano, la playa y paseos por la ciudad. Sin embargo, cada vez son más comunes verlos en ocasiones más formales, como bodas y eventos de negocios.
 
-Los flip flops también son una opción popular para actividades al aire libre como el senderismo o el senderismo, ya que proporcionan una gran comodidad y libertad para los pies. Además, son fáciles de llevar y pueden ser empaquetados en una mochila o bolso, lo que los hace ideales para viajes y vacaciones.
+        Los flip flops también son una opción popular para actividades al aire libre como el senderismo o el senderismo, ya que proporcionan una gran comodidad y libertad para los pies. Además, son fáciles de llevar y pueden ser empaquetados en una mochila o bolso, lo que los hace ideales para viajes y vacaciones.
 
-En resumen, los flip flops son un calzado versátil y cómodo, perfecto para el verano y actividades al aire libre. Con una variedad de diseños y materiales disponibles, hay un par de flip flops para cada ocasión y estilo personal.
-</p>
-<p>
-Los flip flops, también conocidos como chanclas o sandalias, son un tipo de calzado abierto que se compone de una suela y dos tiras que se colocan entre los dedos del pie. Son un calzado muy popular para el verano, ya que son frescos y cómodos de llevar.
+        En resumen, los flip flops son un calzado versátil y cómodo, perfecto para el verano y actividades al aire libre. Con una variedad de diseños y materiales disponibles, hay un par de flip flops para cada ocasión y estilo personal.
+        </p>
+        <p>
+        Los flip flops, también conocidos como chanclas o sandalias, son un tipo de calzado abierto que se compone de una suela y dos tiras que se colocan entre los dedos del pie. Son un calzado muy popular para el verano, ya que son frescos y cómodos de llevar.
 
-Existen muchos diseños diferentes de flip flops, desde los tradicionales de goma hasta los más elaborados con adornos y estampados. También hay flip flops hechos con materiales más duraderos, como cuero o tela, para usar en ocasiones más formales.
+        Existen muchos diseños diferentes de flip flops, desde los tradicionales de goma hasta los más elaborados con adornos y estampados. También hay flip flops hechos con materiales más duraderos, como cuero o tela, para usar en ocasiones más formales.
 
-En la cultura popular, los flip flops son vistos como un calzado relajado y informal, ideales para el verano, la playa y paseos por la ciudad. Sin embargo, cada vez son más comunes verlos en ocasiones más formales, como bodas y eventos de negocios.
+        En la cultura popular, los flip flops son vistos como un calzado relajado y informal, ideales para el verano, la playa y paseos por la ciudad. Sin embargo, cada vez son más comunes verlos en ocasiones más formales, como bodas y eventos de negocios.
 
-Los flip flops también son una opción popular para actividades al aire libre como el senderismo o el senderismo, ya que proporcionan una gran comodidad y libertad para los pies. Además, son fáciles de llevar y pueden ser empaquetados en una mochila o bolso, lo que los hace ideales para viajes y vacaciones.
+        Los flip flops también son una opción popular para actividades al aire libre como el senderismo o el senderismo, ya que proporcionan una gran comodidad y libertad para los pies. Además, son fáciles de llevar y pueden ser empaquetados en una mochila o bolso, lo que los hace ideales para viajes y vacaciones.
 
-En resumen, los flip flops son un calzado versátil y cómodo, perfecto para el verano y actividades al aire libre. Con una variedad de diseños y materiales disponibles, hay un par de flip flops para cada ocasión y estilo personal.
-</p>
+        En resumen, los flip flops son un calzado versátil y cómodo, perfecto para el verano y actividades al aire libre. Con una variedad de diseños y materiales disponibles, hay un par de flip flops para cada ocasión y estilo personal.
+        </p>
     </div>
     <div class="w3-border w3-third w3-container w3-hide-small fijo">
             <div class="w3-container w3-border">
-            <p class="tdc_titulo">Indice</p>
+            <p class="tdc_titulo"><a href="#primerNivel1" class="offset-anchor"> Indice | Flip Flops </a></p>
             <ol class="tdc">
-              <li><a href="#intro" class="offset-anchor">Primer Header</a>
+              <li><a href="#segundoNivel1" class="offset-anchor">Características Básicas</a>
+                <!--
                 <ol type="i">
                   <li><a href="#First_Sub_Point_1">Subheader</a></li>
                   <li><a href="#First_Sub_Point_2">Subheader</a></li>
                 </ol>
+                -->
               </li>
-              <li><a href="#segunda" class="offset-anchor">Segundo Header</a></li>
+              <li><a href="#segundoNivel2" class="offset-anchor">Ecuaciones de Estados</a></li>
                 <ol type="i">
-                  <li><a href="#First_Sub_Point_1">Subheader</a></li>
+                  <li><a href="#tercerNivel1" class="offset-anchor">S-R</a></li>
+                    <!--
                     <ol type="a">
+
+                      
                       <li><a href="#First_Sub_Point_1">Subheader</a></li>
                       <li><a href="#First_Sub_Point_2">Subheader</a></li>
+                      
                     </ol>
-                  <li><a href="#First_Sub_Point_2">Subheader</a></li>
+                  -->
+                  <li><a href="#tercerNivel2" class="offset-anchor">D</a></li>
+                  <li><a href="#tercerNivel3" class="offset-anchor">J-K</a></li>
+                  <li><a href="#tercerNivel4" class="offset-anchor">T</a></li>
                 </ol>
-              <li><a href="#Third_Point_Header">Tercer Header</a></li>
+              <li><a href="#segundoNivel3" class="offset-anchor">Chanclas</a></li>
             </ol>
             </div>
       <p class="w3-border w3-padding-large w3-padding-64 w3-center">calendario posts</p>
