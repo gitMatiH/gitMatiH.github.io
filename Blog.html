@@ -337,7 +337,7 @@ body {overflow-wrap: break-word;}
 <!-- FOOTER -->
 <footer id="myFooter">
   <div class="w3-container w3-theme-l2 w3-padding-32" style="text-align:center">
-    <h4>"Es por lógica que demostramos, por intuición que descubrimos. Saber criticar es bueno, saber crear es mejor." - Henri Poincaré -</h4>
+    <h4 id="frases"></h4>
   </div>
 
   <div class="w3-container w3-theme-l1">
@@ -366,6 +366,22 @@ function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
 }
+
+
+const texts = [
+  '"Es por lógica que demostramos, por intuición que descubrimos. Saber criticar es bueno, saber crear es mejor." - Henri Poincaré -',
+  '"Science is built up of facts, as a house is with stones. But a collection of facts is no more a science than a heap of stones is a house." - Henri Poincaré -',
+  '"The purpose of computing is insight, not numbers." - Richard Hamming - ',
+  '"Beware of finding what you\'re looking for." - Richard Hamming -'
+  ];
+
+function displayRandomText() {
+  const randomIndex = Math.floor(Math.random() * texts.length);
+  const displayElement = document.getElementById("frases");
+  displayElement.innerHTML = texts[randomIndex];
+}
+
+displayRandomText();
 </script>
 
 </body>
